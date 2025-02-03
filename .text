@@ -89,9 +89,9 @@ VALUES (NULL, 1, 'Stefano', 'Spedicato', '1997-03-24', 'CODICEFISCALE1234', '202
 
 UPDATE `teachers`
 SET `office_number` = 126
-WHERE `name` = 'Pietro' AND `id` = 58;
+WHERE `name` = 'Pietro' AND `surname` = 'Rizzo';
 
 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
 
 DELETE FROM `students`
-WHERE `id` = 5002;
+WHERE `name` = 'Stefano' AND `surname` = 'Spedicato';
